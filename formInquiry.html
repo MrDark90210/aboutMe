@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="siteStyle.css">
+</head>
+<body>
+<div class ="topnav">
+    <a class ="active" href="aboutMe.html">Home</a>
+    <a href="formInquiry.html">Inquiry </a>
+    <a href="projects.html">Personal Projects</a>
+
+</div>
+
+<h1 class ="inquiryHeader">
+    Any Inquiry?
+</h1>
+<form class="formdata">
+    <fieldset>
+        <!--This section is for Names  text!-->
+        <div class="names">
+       <label for="fname">First name:</label>
+        <input class ="heighttext"type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Last name:</label>
+        <input class ="heighttext"type="text" id="lname" name="lname"><br>
+        </div><br>
+<!--This section is for type of inquiry text!-->
+        <div class="typeOfInquiry">
+        <label for="projectInquiry"> I have a project Inquiry</label>
+        <input type="checkbox" id="projectInquiry" name="projectInquiry" value="Project Inquiry">
+
+        <label for="projectInquiry"> I have a project Inquiry</label>
+        <input type="checkbox" id="personalInquiry" name="personalInquiry" value="Project Inquiry">
+        </div><br>
+
+        <div class="commentSpace">
+        <textarea id="comments" name="comments" rows="4" cols="50">
+            Any comments or feedback?
+        </textarea>
+        </div>
+
+            <a class ="button"  href ='waitingPage.html'> <button class="button" type="button">Submit</button></a>
+
+
+
+
+    </fieldset>
+
+
+
+</form>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+/*style the background of a css page*/
+body{
+    background-color: white;
+}
+
+/* Style the navigation menu */
+.topnav {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+
+  /* Navigation links */
+  .topnav a {
+    float: left;
+    padding: 3px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    width: 33%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center; /* If you want the text to be centered */
+  }
+
+  /* Add a background color on mouse-over */
+  .topnav a:hover {
+    background-color: #000;
+  }
+
+  /*This space is for content headers and text space*/
+.topnav a:visited{
+    background-color: solid black;
+}
+  .contentHeaders{
+    font-size:30px;
+
+
+}
+  .textSpace{
+    font-size:20px;
+    inline-size:300px;
+    margin-left:10px;
+  }
+.mainImage{
+    border-radius:100%
+}
+
+/*The code below is for formInquiry*/
+
+.inquiryHeader{
+    text-align:center;
+}
+.formdata{
+    align:center;
+    text-align:center;
+    width: 100%;
+    border-radius 10px;
+}
+input[type=text] {
+    background-color: white;
+    color: black;
+    text-align:center;
+  }
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+
+button:hover{
+        background-color: #4CAF50; /* Green */
+        border:50%;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        }
+.names{
+    font-size:30px;
+}
+.heighttext{
+    height:30px;
+}
+.typeOfInquiry{
+    font-size: 20px;
+}
